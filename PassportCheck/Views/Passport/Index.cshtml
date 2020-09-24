@@ -1,0 +1,20 @@
+﻿<link href="~/css/site.css" rel="stylesheet" />
+<div class="testbox">
+    <form>
+        <fieldset>
+            <legend>Проверка паспортных данных</legend>
+            <div class="colums">
+                <div class="item">
+                    <label for="fname">Серия паспорта<span>*</span></label>
+                    <input id="passportNumber" type="text" />
+                </div>
+            </div>
+        </fieldset>
+        <div class="btn-block">
+            <button type="button" onclick="CheckPassport()">Отправить</button>
+        </div>
+        <div id="result"></div>
+       
+    </form>
+</div>
+<script src="~/js/passport.js"></script>
